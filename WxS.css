@@ -3,6 +3,7 @@ body
 
     /*background-image:url(Image/Backround/WxS_Sekai.png);*/
     font-family: Verdana;
+    font-weight: lighter;
     text-shadow:  0.5px 0.5px rgb(97, 86, 86);
     text-shadow: 0.5px 0.5px rgb(105, 83, 83);
 }
@@ -26,6 +27,7 @@ a{text-decoration: none;}
 }
 table
 {
+    border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
     width: auto;
@@ -38,11 +40,20 @@ td,td
 {
     padding: 10px;
     margin: 5px;
+    border: 1px solid black;
 }
 th
 {
+    border: 1px solid black;
     text-decoration: none;
     padding: 0;
     background-color: aqua;
-    border: 10px solid aqua;
+}
+
+.item
+{
+        background-color: #bdaeae;
+        font-weight: 400;
+        padding: 0px;
+        margin: 0px;
 }
