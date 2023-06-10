@@ -29,7 +29,7 @@ table
 {
     border-collapse: collapse;
     margin-left: 200px;
-    width: 800px;
+    width: 1000px;
 }
 tr
 {
@@ -55,4 +55,8 @@ th
         font-weight: 400;
         padding: 0px;
         margin: 0px;
+}
+.fragment
+{
+    border-bottom: 1px solid bla;
 }
