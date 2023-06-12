@@ -39,7 +39,7 @@ td,td
 {
     padding: 10px;
     margin: 5px;
-    border: 1px solid black;
+    border: 1px solid rgba(153, 151, 151, 0.425);
 }
 th
 {
