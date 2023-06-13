@@ -4,10 +4,14 @@ body
     /*background-image:url(Image/Backround/WxS_Sekai.png);*/
     font-family: Verdana;
     font-weight: lighter;
-    text-shadow:  0.5px 0.5px rgb(97, 86, 86);
-    text-shadow: 0.5px 0.5px rgb(105, 83, 83);
+    
 }
-a{text-decoration: none;}
+a
+{
+    -webkit-text-stroke: 1px rgba(173, 173, 173, 0.404);
+    font-weight: 1000;
+    text-decoration: none;
+}
 
 .circle 
 {
@@ -25,7 +29,7 @@ a{text-decoration: none;}
     border-radius: 50%;
     display: inline-block;
 }
-table
+.tablemusic
 {
     border-collapse: collapse;
     margin-left: 200px;
@@ -35,13 +39,13 @@ tr
 {
     margin: 10px;
 }
-td,td
+.musictd
 {
     padding: 10px;
     margin: 5px;
     border: 1px solid rgba(153, 151, 151, 0.425);
 }
-th
+.musicth
 {
     border: 1px solid black;
     text-decoration: none;
@@ -59,4 +63,21 @@ th
 .fragment
 {
     border-bottom: 1px solid bla;
+}
+
+.cardtable
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border: 1px solid rgb(255, 115, 0);
+}
+
+.lastcard
+{
+    padding-bottom: 30px;
+}
+th{
+    background-color: rgba(241, 187, 86, 0.219);
 }
