@@ -39,6 +39,7 @@ tr
 {
     margin: 10px;
 }
+td{background-color: black;}
 .musictd
 {
     padding: 10px;
@@ -67,10 +68,10 @@ tr
 
 .cardtable
 {
-    text-align: center;
+    text-align: center; 
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    width: 700px;
     border: 1px solid rgb(255, 115, 0);
 }
 
@@ -82,26 +83,32 @@ th{
     background-color: rgba(241, 187, 86, 0.219);
 }
 
+
+
 .tooltip 
 {
-
-    display: inline-block;
-
+    visibility: visible;
 }
+
+
 .tooltip .tooltiptext
 {
+    margin: 5px;
     position: absolute;
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 420px;
     align-items: center;
     color: #fff;
     visibility: hidden;
     z-index:auto;
 
 }
-.tooltip:hover .tooltiptext{visibility: visible;}
-
+.tooltip:hover .tooltiptext
+{
+    visibility: visible;
+}
+    
 .cardhoverbox
 {
     width: 342px;
@@ -114,32 +121,37 @@ img
     display: inline;
 
 }
-.imgcardhover
+
+.imgbox
 {
-    border: 0.1px solid rgb(86, 133, 43);
-    visibility: visible;
+    border: 0.5px solid #4195fc;
+    -webkit-box-shadow: 2px 2px 2px #0065e0;
+    -moz-box-shadow: 2px 2px 2px #4195fc;
+    box-shadow: 2px 2px 2px #4195fc;
     
 }
 
-.item1
+.textbox    
 {
-    grid-area: myarea;
+    text-align: center; 
+    font-size: x-small;
+    color: black; 
+    font-weight:600;
 }
 
-.grid-container
+.textboxname
 {
-    width: 50%;
-    display: grid;
-    grid: 'myarea';
-    background-color: blue;
-    grid-gap: 10px;
-    padding: 10px;
-}
-
-.grid-container > div
-{
-    background-color: white;
     text-align: center;
-    padding: 20px;
-    font-size: 30px;
+    font-size: small;
+    font-weight: 600;
+    color: black;
 }
+
+
+.boxtext
+{
+    text-align: center; 
+    font-size: medium; 
+}
+
+
