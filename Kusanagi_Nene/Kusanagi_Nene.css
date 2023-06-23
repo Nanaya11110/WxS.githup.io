@@ -1,0 +1,46 @@
+body
+{
+    font-family:Georgia;
+}
+
+
+
+.categorybox
+{
+    width: auto;
+    height: 200px;
+    border: 5px solid gray;
+    box-shadow: 0px 10px #34DD9A ;
+}
+.categorychoice
+{
+    padding-top: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 15%;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.categorychoice:hover
+{
+    transition: 0.7s;
+    background-color: rgb(150, 147, 147);}
+.categorypicture
+{
+
+   width: 200px;
+   height: 200px;
+   float: right;
+}
+.categoryname
+{
+    font-weight:800;    
+    font-size: 300%;
+    display: inline;
+    text-shadow:  0 0 5px #34DD9A;
+    -webkit-text-stroke: 1px #34DD9A;
+    color: white;
+}
