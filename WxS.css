@@ -1,1 +1,156 @@
+body
+{
 
+    /*background-image:url(Image/Backround/WxS_Sekai.png);*/
+    font-family: Verdana;
+    font-weight: lighter;
+    
+}
+a
+{
+    -webkit-text-stroke: 1px rgba(173, 173, 173, 0.404);
+    font-weight: 1000;
+    text-decoration: none;
+}
+.circle 
+{
+    height: 230px;
+    width: 230px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circleVer2
+{
+    height: 325px;
+    width: 325px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.tablemusic
+{
+    border-collapse: collapse;
+    margin-left: 200px;
+    width: 1000px;
+}
+tr
+{
+    margin: 10px;
+}
+
+.musictd
+{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgba(153, 151, 151, 0.425);
+}
+.musicth
+{
+
+    text-decoration: none;
+    padding: 0;
+    background-color: aqua;
+}
+
+.item
+{
+     background-color: #bdaeae;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+.fragment
+{
+    border-bottom: 1px solid bla;
+}
+
+.cardtable
+{
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border: 1px solid rgb(255, 115, 0);
+}
+
+.lastcard
+{
+    padding-bottom: 30px;
+}
+th{
+    background-color: rgba(241, 187, 86, 0.219);
+}
+
+
+
+.tooltip 
+{
+    visibility: visible;
+}
+
+
+.tooltip .tooltiptext
+{
+    margin: 5px;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 420px;
+    align-items: center;
+    color: #fff;
+    visibility: hidden;
+    z-index:auto;
+
+}
+.tooltip:hover .tooltiptext
+{
+    transform: translateY(-400px) translateX(60%);
+    visibility: visible;
+}
+    
+.cardhoverbox
+{
+    width: 342px;
+    height: 400px;
+    background-color: rgb(112, 105, 105);
+}
+
+img
+{
+    display: inline;
+
+}
+
+.imgbox
+{
+
+    border: 0.5px solid #4195fc;
+    -webkit-box-shadow: 2px 2px 2px #0065e0;
+    -moz-box-shadow: 2px 2px 2px #4195fc;
+    box-shadow: 2px 2px 2px #4195fc;
+    
+}
+
+.textbox    
+{
+    text-align: center; 
+    font-size: x-small;
+    color: black; 
+    font-weight:600;
+}
+
+.textboxname
+{
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+    color: black;
+}
+
+
+.boxtext
+{
+    text-align: center; 
+    font-size: medium; 
+}
